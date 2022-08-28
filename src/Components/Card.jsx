@@ -8,7 +8,7 @@ import ClickAwayListener from "./ClickAwayListener";
 function Card(props) {
     // Dummy empty task that can be added to the list (for initial testing)
     let emptyTask = {
-        content: "New Task",
+        content: "New empty task",
         taskShowTooltip: false,
         toEdit: false,
         completed: false,
